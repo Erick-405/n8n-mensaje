@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.33.0
+FROM n8nio/n8n:latest
 ENV N8N_PROTOCOL=https
 ENV WEBHOOK_URL=https://n8n-mensaje.onrender.com/
 ENV N8N_HOST=0.0.0.0
